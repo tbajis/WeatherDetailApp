@@ -1,0 +1,23 @@
+{
+    "timezone": "America/McLean",
+    "currently": {
+        "time": 1557092151,
+        "summary": "Drizzle",
+        "icon": "rain",
+        "apparentTemperature": 54.12,
+        "precipProbability": 0.88,
+        "windSpeed": 10.15,
+        "humidity": 0.74,
+        "uvIndex": 6,
+    },
+    "daily": {
+        "data": [
+            {
+                "summary": "Mostly cloudy throughout the day.",
+                "temperatureHigh": 57.3,
+                "temperatureLow": 53.42,
+            },
+        ],
+    }
+}
+
