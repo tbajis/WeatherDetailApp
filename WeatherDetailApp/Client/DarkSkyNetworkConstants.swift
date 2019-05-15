@@ -10,7 +10,7 @@
 enum DarkSkyNetworkConstants {
 
     // MARK: - API Key
-
+    #error("Please add your API key below then delete this line.")
     static let ApiKey: String = "INSERT YOUR API KEY HERE"
 
     // MARK: - Network Constants

@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.makeKeyAndVisible()
         
-        // Create a fake client to simulate "hitting the network"
-        let mockClient = MockClient(responseType: .success)
+        // MARK: - BONUS CHALLENGE HIT THE API:
+        let client = DarkSkyNetworkClient(apiKey: DarkSkyNetworkConstants.ApiKey)
         
         // Create a fake location for our model to make use of
         // NOTE: This would likely be provided by another component in our App
@@ -27,7 +27,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         // Step 1: Create a Model
         let model = WeatherDetailModel(location: location,
-                                       client: mockClient)
+                                       client: client)
         
         // Step 2: Create a ViewModel and set on Model
         let viewModel = WeatherDetailViewModel()
