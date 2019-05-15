@@ -41,9 +41,6 @@
                                                         <state key="normal" title="Refresh">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
-                                                        <connections>
-                                                            <action selector="refreshButtonTapped:" destination="pdl-GJ-HS4" eventType="touchUpInside" id="mUS-jJ-Ukb"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
