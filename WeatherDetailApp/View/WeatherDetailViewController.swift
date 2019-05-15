@@ -89,13 +89,16 @@ public class WeatherDetailViewController: UIViewController {
             self?.showLoadingIndicator(isLoading)
         }
     }
-
-    // MARK: - IBActions
-
-    @IBAction func refreshButtonTapped(_ sender: UIButton) {
+    
+    //FIXME: Connect me to a Storyboard element!
+    func refreshButtonTapped() {
         showLoadingIndicator()
-        viewModel?.refresh()
+        
+        // We have a loading indicator going, but how should we refresh the data?
+        // Does any object on this View have a way to refresh data?
     }
+    
+    
     
     // MARK: - Helper Functions
 

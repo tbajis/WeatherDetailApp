@@ -41,9 +41,6 @@
                                                         <state key="normal" title="Refresh">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
-                                                        <connections>
-                                                            <action selector="refreshButtonTapped:" destination="pdl-GJ-HS4" eventType="touchUpInside" id="mUS-jJ-Ukb"/>
-                                                        </connections>
                                                     </button>
                                                 </subviews>
                                             </stackView>
@@ -68,7 +65,7 @@
                                                 <constraints>
                                                     <constraint firstItem="R3n-ng-pDw" firstAttribute="top" secondItem="CpC-Ku-IYa" secondAttribute="bottom" constant="8" id="1hE-2N-zVA"/>
                                                     <constraint firstAttribute="bottomMargin" secondItem="R3n-ng-pDw" secondAttribute="bottom" constant="8" id="5dA-wK-8JE"/>
-                                                    <constraint firstItem="R3n-ng-pDw" firstAttribute="centerX" secondItem="CZX-oJ-i74" secondAttribute="centerX" id="PtV-ag-1Tm"/>
+                                                    <constraint firstItem="R3n-ng-pDw" firstAttribute="leading" secondItem="CZX-oJ-i74" secondAttribute="leading" id="lS8-fD-Hrq"/>
                                                     <constraint firstItem="CpC-Ku-IYa" firstAttribute="centerX" secondItem="CZX-oJ-i74" secondAttribute="centerX" id="nTO-Sc-6Mi"/>
                                                     <constraint firstItem="CpC-Ku-IYa" firstAttribute="top" secondItem="CZX-oJ-i74" secondAttribute="topMargin" id="ovG-Yd-JaD"/>
                                                 </constraints>
@@ -288,7 +285,6 @@
                             <constraint firstAttribute="bottomMargin" secondItem="J9g-UO-kcn" secondAttribute="bottom" id="IBk-aF-gRu"/>
                             <constraint firstItem="HBm-O2-yik" firstAttribute="leading" secondItem="J9g-UO-kcn" secondAttribute="leading" id="Q28-Kk-7jB"/>
                             <constraint firstItem="J9g-UO-kcn" firstAttribute="trailing" secondItem="HBm-O2-yik" secondAttribute="trailing" id="gte-Va-iDZ"/>
-                            <constraint firstItem="J9g-UO-kcn" firstAttribute="top" secondItem="Fli-l1-Te7" secondAttribute="topMargin" id="hdQ-Uc-upe"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="HBm-O2-yik"/>
                     </view>
