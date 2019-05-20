@@ -20,7 +20,7 @@ Throughout this course, we will use a few different Git commands. Please take a 
 Clone a repository (normally remote) into a specific directory on your computer.  
 Execute `pwd` in Terminal first. The output (your current directory) is where this Git repo will be cloned into.
 
-example: `git clone https://github.com/womenwhocode/mobile-code-a-thon-ios.git`
+example: `git clone https://github.com/tbajis/WeatherDetailApp`
 
 **[git checkout](https://git-scm.com/docs/git-checkout)**  
 Switch branches (optionally creating a new branch), or update files in the working tree to match a specific version.
@@ -53,7 +53,7 @@ to append a one-line commit message: `git commit -m 'your commit message here'`
 
 ### Getting Started
 First, open Terminal and `cd` to the directory where this project will live. Then, clone the project using Git.  
-`git clone https://github.com/womenwhocode/mobile-code-a-thon-ios.git`  
+`git clone https://github.com/tbajis/WeatherDetailApp`  
 
 Now, use Git to checkout the branch beginner-step-1.  
 `git checkout beginner-step-1`
